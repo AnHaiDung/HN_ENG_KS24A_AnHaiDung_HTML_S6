@@ -1,0 +1,53 @@
+body{
+    background-color: #f7f8f9;
+}
+
+.container{
+    width: 300px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-radius: 8px;
+    background-color: white ;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container input{
+    width: 97%;
+}
+
+.container #heading {
+    text-align: center;
+}
+
+.container .name{
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.container .email{
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.container .password{
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.container .button{
+    background-color:#007bff ;
+    border-radius: 4px ;
+    padding: 4px;
+    color: white;
+    border: 1px solid transparent;
+    text-align: center;
+    width: 100%;
+    font-weight: 300 ;
+}
+
+.container .button:hover{
+    background-color: #0051a8 ;
+    cursor: pointer;
+}
